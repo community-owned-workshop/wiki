@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1000 1000"
+     role="img"
+     aria-labelledby="title description"
+     style="color: #111111">
+
+    <style>
+        .ink-fill {
+            fill: currentColor;
+        }
+
+        .ink-stroke {
+            fill: none;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .paper-fill {
+            fill: #ffffff;
+        }
+    </style>
+
+    <defs>
+        <path id="topArc" d="M190 500A310 310 0 0 1 810 500"/>
+        <path id="bottomArc" d="M210 690A335 335 0 0 0 790 690"/>
+
+        <mask id="bannerCutout" maskUnits="userSpaceOnUse">
+            <rect width="1000" height="1000" fill="white"/>
+            <path d="M190 275H810L890 500 810 725H190L110 500Z" fill="black"/>
+        </mask>
+    </defs>
+
+    <circle cx="500" cy="500" r="500" class="paper-fill" />
+
+    <g class="ink-stroke" mask="url(#bannerCutout)">
+        <circle cx="500" cy="500" r="450" stroke-width="40"/>
+        <circle cx="500" cy="500" r="410" stroke-width="20"/>
+        <circle cx="500"
+                cy="500"
+                r="380"
+                stroke-width="20"
+                transform="matrix(.74898 0 0 .776517 125.51 111.742)"/>
+    </g>
+
+    <g class="ink-fill"
+       font-family="Arial Black, Impact, sans-serif"
+       font-weight="900"
+       text-anchor="middle"
+       letter-spacing="9"
+       transform="matrix(1.034591 0 0 .97767 -17.221 3.674)">
+        <text font-size="112" transform="matrix(.905433 0 0 .867392 47.251 19.926)">
+            <textPath xlink:href="#topArc" startOffset="50%">UDDERLY</textPath>
+        </text>
+        <text font-size="92" transform="translate(1.198 48.966)">
+            <textPath xlink:href="#bottomArc" startOffset="50%">APPROVED</textPath>
+        </text>
+    </g>
+
+    <!-- Stars -->
+    <g class="ink-fill" transform="matrix(.977872 0 0 .977872 -8.914 -30.007)">
+        <path d="M184 500l13 28 31 4-23 21 6 31-27-15-28 15 6-31-23-21 32-4Z"/>
+        <path d="M856.892 500l13 28 31 4-23 21 6 31-27-15-28 15 6-31-23-21 32-4Z"/>
+    </g>
+
+    <path d="M286.125 315.141H712.929L762.037 500 712.929 684.859H286.125L237.017 500Z"
+          class="paper-fill"
+          stroke="currentColor"
+          stroke-width="26.152"
+          stroke-linejoin="round"/>
+
+    <g class="ink-stroke" stroke-width="23">
+        <!-- Horns -->
+        <path d="M405 444.891q-50-40-30-95 30 45 75 35"/>
+        <path d="M595 444.891q50-40 30-95-30 45-75 35"/>
+
+        <!-- Ears -->
+        <path d="M416 405.144q-74-35-101 20 50 33 110 20" class="paper-fill"/>
+        <path d="M584 405.144q74-35 101 20-50 33-110 20" class="paper-fill"/>
+
+        <!-- Head -->
+        <path d="M410 400.108q90-45 180 0 35 55 17 145-17 90-107 105-90-15-107-105-18-90 17-145Z"/>
+
+        <!-- Muzzle -->
+        <path d="M405 541.765q95-40 190 0 25 60-20 90-75 35-150 0-45-30-20-90Z"
+              class="paper-fill"/>
+    </g>
+
+    <g class="ink-fill">
+        <ellipse cx="445" cy="483.869" rx="13" ry="20"/>
+        <ellipse cx="555" cy="483.869" rx="13" ry="20"/>
+        <ellipse cx="460" cy="568.869" rx="12" ry="16"/>
+        <ellipse cx="540" cy="568.869" rx="12" ry="16"/>
+    </g>
+</svg>

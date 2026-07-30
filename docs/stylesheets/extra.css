@@ -1,0 +1,15 @@
+:root {
+  --md-primary-fg-color: #1b2838;
+  --md-accent-fg-color: #66c0f4;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #171d25;
+  --md-default-fg-color: #c7d5e0;
+  --md-typeset-a-color: #66c0f4;
+}
+
+.md-header,
+.md-tabs {
+  background: linear-gradient(90deg, #171d25, #1b2838, #2a475e);
+}
