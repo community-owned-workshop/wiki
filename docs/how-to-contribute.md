@@ -22,8 +22,8 @@ No need to create "Better XYZ Mod Patch Patch" just because you fixed one bug.
 
 Please read:
 
-- [Code of Conduct](./.github/CODE_OF_CONDUCT.md)
-- [Contributing](./.github/CONTRIBUTING.md)
+- [Code of Conduct](./github/CODE_OF_CONDUCT.md)
+- [Contributing](./github/CONTRIBUTING.md)
 - Project Documentation
 
 **Happy coding!**

@@ -15,14 +15,14 @@ COW gives each mod one shared home, allowing the community to maintain it togeth
 
 ## Why COW?
 
-### ? As a Player
+### 🎮 As a Player
 
 - One canonical version to find and subscribe to.
 - Fewer abandoned or incompatible forks.
 - Mods can survive inactive maintainers.
 
 
-### ? As a Mod Author
+### 📦 As a Mod Author
 
 - Share the maintenance workload.
 - Step away without abandoning the mod.
@@ -31,7 +31,7 @@ COW gives each mod one shared home, allowing the community to maintain it togeth
 
 
 
-### ? As a Contributor
+### 🐞 As a Contributor
 
 - Improve the original mod instead of creating another fork.
 - Use shared tests, reviews, and publishing tools.
@@ -42,6 +42,6 @@ COW gives each mod one shared home, allowing the community to maintain it togeth
 
 That depends on who you are. 
 
-- **[? I'm a player!](how-to-report)**
-- **[? I want to publish my mod!](how-to-maintain)**
-- **[? I want to fix a bug!](how-to-contribute)**
+- **[🎮 I'm a player!](how-to-report.md)**
+- **[📦 I want to publish my mod!](how-to-maintain.md)**
+- **[🐞 I want to fix a bug!](how-to-contribute.md)**

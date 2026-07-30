@@ -38,5 +38,5 @@ The only difference is that trusted contributors can help maintain it through Pu
 ## Before You Start
 
 Please read:
-- [Code of Conduct](./.github/CODE_OF_CONDUCT.md)
-- [Governance](./.github/GOVERNANCE.md)
+- [Code of Conduct](./github/CODE_OF_CONDUCT.md)
+- [Governance](./github/GOVERNANCE.md)
