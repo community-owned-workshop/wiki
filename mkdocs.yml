@@ -24,10 +24,10 @@ theme:
 nav:
   - Home: index.md
   - Organization:
-      - Code of Conduct: .github/CODE_OF_CONDUCT.md
-      - Contributing: .github/CONTRIBUTING.md
-      - Governance: .github/GOVERNANCE.md
-      - Security: .github/SECURITY.md
+      - Code of Conduct: github/CODE_OF_CONDUCT.md
+      - Contributing: github/CONTRIBUTING.md
+      - Governance: github/GOVERNANCE.md
+      - Security: github/SECURITY.md
   - Tools:
       - GitHub Actions: steam-workshop-devops/index.md
   - Project Zomboid:
