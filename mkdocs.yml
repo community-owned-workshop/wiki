@@ -32,6 +32,8 @@ nav:
       - GitHub Actions: steam-workshop-devops/index.md
   - Project Zomboid:
       - GitHub Actions: steam-workshop-devops/project-zomboid/index.md
+      - Mod Template: project-zomboid-template/getting-started.md
+      - Mod Template Tools: project-zomboid-template/tools.md
 
 extra_css:
   - stylesheets/extra.css
